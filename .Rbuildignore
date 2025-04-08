@@ -1,0 +1,11 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^README\.Rmd$
+^test.txt$
+^working$
+^.*\.txt$
+^data-raw$
+^pkgdown$
+^\.travis\.yml$
+^appveyor\.yml$
+^\.github$

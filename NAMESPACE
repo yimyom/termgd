@@ -1,0 +1,2 @@
+useDynLib(termgd, .registration = TRUE)
+export(termgd)

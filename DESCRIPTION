@@ -1,0 +1,21 @@
+Package: termgd
+Type: Package
+Title: Terminal R Graphics Device
+Version: 0.1.0
+Authors@R: person("David", "Bellot", role = c("aut", "cre"), email = "david.bellot@gmail.com")
+Description: A graphics device for terminal supporting graphics protocol such as Kitty protocol, iTerm2 protocol or Sixel graphics. These terminals can display real graphics (not ASCII art).
+License: GPL-3
+Imports: Rcpp (>= 1.0.1)
+LinkingTo: Rcpp
+Depends: R (>= 4.0.0)
+RoxygenNote: 7.1.1
+LazyData: true
+Encoding: UTF-8
+VignetteBuilder: knitr
+SystemRequirements: R (>= 4.0.0)
+NeedsCompilation: yes
+Suggets:
+    knitr,
+    rmarkdown,
+    glue,
+    testthat (>= 2.1.0)
